@@ -2,17 +2,17 @@ const adminmenu = (prefix) => {
 	return `
 ╭┈─────𝙵𝙸𝚃𝚄𝚁 𝙽𝚈𝙰 𝙺𝙰𝙺
 ╰─❁۪۪
-╰─➤ *${prefix}ban @tagmember*
-╰─➤ *${prefix}unban @tagmember*
-╰─➤ *${prefix}spamcall [81273xxxx]*
-╰─➤ *${prefix}kickall*
-╰─➤ *${prefix}leave*
-╰─➤ *${prefix}promote*
-╰─➤ *${prefix}demote*
-╰─➤ *${prefix}delete*
-╰─➤ *${prefix}add 62813xxxxx*
-╰─➤ *${prefix}kickall*
-╰─➤ *${prefix}tagall*
+╰─➤  *${prefix}ban @tagmember*
+╰─➤  *${prefix}unban @tagmember*
+╰─➤  *${prefix}spamcall [81273xxxx]*
+╰─➤  *${prefix}kickall*
+╰─➤  *${prefix}leave*
+╰─➤  *${prefix}promote*
+╰─➤  *${prefix}demote*
+╰─➤  *${prefix}delete*
+╰─➤  *${prefix}add 62813xxxxx*
+╰─➤  *${prefix}kickall*
+╰─➤  *${prefix}tagall*
 ╰─➤  *${prefix}otagall*
 ╰─➤  *${prefix}otagall2*
 ╰─➤  *${prefix}tagall*
@@ -35,7 +35,7 @@ const adminmenu = (prefix) => {
 ╰─➤  *${prefix}edotensei*
 ╰─➤  *${prefix}listadmins*
 ╰─➤  *${prefix}ping*
-╭┈─────Arifi Razzaq OFFICIAL 
+╭┈───── *RANS BOT OFFICIAL* 
 ╰─❁۪۪`
 }
 exports.adminmenu = adminmenu
