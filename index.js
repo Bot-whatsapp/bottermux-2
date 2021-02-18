@@ -78,8 +78,8 @@ const bacotrandom = JSON.parse(fs.readFileSync('./src/bacot.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const user = JSON.parse(fs.readFileSync('./src/user.json'))
 ban = []
-cr = '*VEERBOTZ*'
-vz = '*Terima Kasih Sudah Daftar Di VEERBOTZ*'
+cr = '*RANSBOT*'
+vz = '*Terima Kasih Sudah Daftar Di RANSBOT*'
 const vcard = 'BEGIN:VCARD\n' //
             + 'VERSION:3.0\n' //
             + 'FN: REAL ACCOUNT BANG ARIFI\n' //
@@ -277,7 +277,7 @@ async function starts() {
 					benned: 'Anda Ke Band Silahkan Hubungi Owner Agar Membuka Band Anda',
 					ownerG: '[❗] Lu spe owner? ini fitur khusus owner njierrr ❌',
 					ownerB: '[❗] Lu spe owner? ini fitur khusus owner njierrr ❌',
-					userB: `──「 DAFTAR 」── \n 𝖧𝖺𝗅𝗅𝗈 𝖬𝖻𝖺𝗄 𝗆𝖺𝗌 𝖭𝗒𝖺 𝖸𝖺𝗇𝗀 𝖦𝖺𝗇𝗍𝖾𝗇𝗀 𝖽𝖺𝗇 𝖢𝖺𝗇𝗍𝗂𝗄 \n 𝖪𝖺𝗆𝗎 𝖡𝖾𝗅𝗎𝗆 𝖳𝖾𝗋𝖽𝖺𝖿𝗍𝖺𝗋 𝖣𝗂 Veerbotz 𝖠𝗒𝗈 𝖡𝗎𝗋𝗎𝖺𝗇 𝖽𝖺𝖿𝗍𝖺𝗋 𝖪𝖺𝗄 𝖡𝗂𝖺𝗋 𝖻𝗂𝗌𝖺 𝗆𝖾𝗇𝗀𝖺𝗄𝗌𝖾𝗌 𝖥𝗂𝗍𝗎𝗋 \n 𝖢𝖺𝗋𝖺 𝖽𝖺𝖿𝗍𝖺𝗇𝗒𝖺 𝖦𝗂𝗇𝗂 𝖪𝖺𝗄 \n\n/𝖣𝖺𝖿𝗍𝖺𝗋 Arifi Razzaq |17 \n\n──「 VEERBOTZ 」──`,
+					userB: `──「 DAFTAR 」── \n 𝖧𝖺𝗅𝗅𝗈 𝖬𝖻𝖺𝗄 𝗆𝖺𝗌 𝖭𝗒𝖺 𝖸𝖺𝗇𝗀 𝖦𝖺𝗇𝗍𝖾𝗇𝗀 𝖽𝖺𝗇 𝖢𝖺𝗇𝗍𝗂𝗄 \n 𝖪𝖺𝗆𝗎 𝖡𝖾𝗅𝗎𝗆 𝖳𝖾𝗋𝖽𝖺𝖿𝗍𝖺𝗋 𝖣𝗂 Rans bot 𝖠𝗒𝗈 𝖡𝗎𝗋𝗎𝖺𝗇 𝖽𝖺𝖿𝗍𝖺𝗋 𝖪𝖺𝗄 𝖡𝗂𝖺𝗋 𝖻𝗂𝗌𝖺 𝗆𝖾𝗇𝗀𝖺𝗄𝗌𝖾𝗌 𝖥𝗂𝗍𝗎𝗋 \n 𝖢𝖺𝗋𝖺 𝖽𝖺𝖿𝗍𝖺𝗇𝗒𝖺 𝖦𝗂𝗇𝗂 𝖪𝖺𝗄 \n\n/𝖣𝖺𝖿𝗍𝖺𝗋 bayu|17 \n\n──「 Rans bot 」──`,
 					admin: '[❗] Perintah ini hanya bisa di gunakan oleh admin group! ❌',
 					Badmin: ' [❗] Perintah ini hanya bisa di gunakan ketika bot menjadi admin! ❌',
 				}
@@ -1927,7 +1927,8 @@ if (isBanned) return reply(mess.only.benned)
 					teks = body.slice(6)
 					if (teks.length > 9) return reply('Teksnya kepanjangan, maksimal 9 karakter')
 					reply(mess.wait)
-					Buffer = await getBuffer(`https://tobz-api.herokuapp.com/api/photooxy?theme=wood_block&text=${teks}&apikey=kontol`)
+					Buffer = await getBuffer(`https://tobz-api.herokuapp.com/api/photooxy?theme=wood_block&text=${teks}&apikey=kontol`)
+
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: ''+teks})
 					break
 				case 'thunder':
